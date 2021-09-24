@@ -1,0 +1,19 @@
+{
+  "name": "a01-johnmoore98",
+  "version": "1.0.0",
+  "description": "This assignment is intended to dust off the cobwebs and get web basics into your mind since you will need them for all of the rest of the assignments.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jdmar3-comp426/a01-johnmoore98.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jdmar3-comp426/a01-johnmoore98/issues"
+  },
+  "homepage": "https://github.com/jdmar3-comp426/a01-johnmoore98#readme"
+}
