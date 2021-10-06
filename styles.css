@@ -1,18 +1,77 @@
+body {
+    background-color: rgb(201,100,73);
+}
+
+h1 {
+    font-size: 52px;
+}
+
 h1, h2 {
+    text-shadow: 2px 2px black;
+}
+
+h1, h2, p {
     display: flex;
     justify-content: center;
+    color: white;
+    font-family: Arial;
+}
+
+nav, table, td {
+    text-align: center;
+}
+
+table, td, th {
+    border: 2px solid black;
+    padding: 10px;
+    border-collapse: collapse;
 }
 
 table {
     margin-left: auto;
     margin-right: auto;
     width: 50%;
+    font-size: large;
+    font-family: Arial;
 }
 
 table th {
     width: 33%;
 }
 
-table td {
-    text-align: center;
+th {
+    background-color: rgb(68,180,138);
+    color: white;
+}
+
+.TablePics {
+    max-width: 75%;
+    max-height: auto;
+}
+
+img:hover {
+    box-shadow: 0 0 2px 1px rgba(201,100,73, 0.5);
+}
+
+tr {
+    background-color: white;
+}
+
+.altRow {
+    background-color: rgb(201, 201, 201);
+}
+
+.victoryImg {
+    border: 1px solid black;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 65%;
+}
+
+p {
+    width: 65%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
