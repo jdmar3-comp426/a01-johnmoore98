@@ -10,14 +10,14 @@ h1, h2 {
     text-shadow: 2px 2px black;
 }
 
-h1, h2, p {
+h1, h2, p, h3 {
     display: flex;
     justify-content: center;
     color: white;
     font-family: Arial;
 }
 
-nav, table, td {
+nav, .homeTable, td {
     text-align: center;
 }
 
@@ -27,7 +27,7 @@ table, td, th {
     border-collapse: collapse;
 }
 
-table {
+.homeTable {
     margin-left: auto;
     margin-right: auto;
     width: 50%;
@@ -35,7 +35,7 @@ table {
     font-family: Arial;
 }
 
-table th {
+.homeTable th {
     width: 33%;
 }
 
@@ -74,4 +74,79 @@ p {
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+.regieleki {
+    background-color: rgb(250,224,120);
+}
+
+.urshifurs {
+    background-color: rgb(214,120,115);
+}
+
+.togekiss {
+    background-color: rgb(244,189,201);
+}
+
+.nidoqueen {
+    background-color: rgb(193,131,193);
+}
+
+.mimeg {
+    background-color: rgb(250,146,178);
+}
+
+.dedenne {
+    background-color: rgb(250,224,120);
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+}
+
+.overview {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-content: flex-start;
+}
+
+.overview h2, h3, p {
+    color: black;
+    text-shadow: none;
+    text-align: left;
+}
+
+.infoPic {
+    max-width: 50%;
+    max-height: auto;
+}
+
+.statsPic {
+    width: 25%;
+    max-height: auto;
+}
+
+.build {
+    display: flex;
+    justify-content: space-around;
+}
+
+.pokemonHeader {
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 5%;
+    color: black;
+    text-shadow: none;
+}
+
+.build {
+    align-content: left;
+}
+
+.pokemonTable {
+    margin-left: 0%;
+    margin-right: 0%;
+    width: 30%;
 }
